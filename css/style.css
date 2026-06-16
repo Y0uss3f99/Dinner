@@ -1,0 +1,104 @@
+.bg-main{
+    background-color: #FFFBEB;
+}
+.w-30{
+    width: 2.5rem;
+    border: 2px solid #FFB869;
+}
+.w-fexed{
+    height: 0.7rem !important;
+    width: 0.7rem !important;
+    border-radius: 50%;
+    font-size: 18px;
+}
+.d_hover:hover{
+
+    cursor: pointer;
+}
+
+.d_ihover:hover{
+    color: #F54A00;
+}
+.full-img{
+    height: 100%  !important;
+    width: 100%;
+    object-fit: cover !important;
+    display: block !important;
+    object-position: center !important;
+}
+.h-m{
+    height: 100%;
+}
+
+.bg-span{
+    background-color:#FF5C00;
+}
+.w-35{
+    width: 10rem !important;
+
+}
+.icon2_hover{
+    width: 4rem;
+    background-color: #f8ebd8;
+    height: 2.5rem;
+    color: #F54A00;
+}
+.icon2_hover:hover{
+    background-color: #f5debe;
+    cursor: pointer;
+}
+.nav{
+ --bs-nav-link-color: #666161 !important;
+ --bs-nav-link-hover-color:#000000 ;
+  --bs-nav-underline-border-width: 0rem;
+ position: relative;
+  z-index: 9999;
+}
+.nav-underline .nav-link.active{
+    color:#F54A00 ;
+    background-color: white !important;
+     --bs-nav-underline-border-width: 0.125rem;
+}
+.nav-pills{
+        --bs-nav-pills-link-active-bg:#F54A00;
+}
+.bg-IDN{
+      background-color: #fff6e9;    
+}
+
+
+.h-350px{
+    height: 350px;
+}
+.color1 { background-color: #DBEAFF; color: #155DFC; }
+.color2 { background-color: #FEF9C2; color: #D08700; }
+.color3 { background-color: #FEE2E1; color: #E70009; }
+.color4 { background-color: #DCFCE6; color: #00A63D; }
+.color5 { background-color: #FCE6F3; color: #E50076; }
+
+.check {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #d66b4f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+}
+.shadow_left{
+    box-shadow: -6px 0 1px #FFB900;
+}
+.bg-chef{
+    background-color: #FFFBEB;
+}
+.btn-bg{
+ background:linear-gradient(to right ,#FF6500,#E70007) ; 
+ transition: all 0.5s;  
+
+}
+.btn-bg:hover{
+ background:linear-gradient(to right ,#bb4b00,#de0007) ;   
+    scale: calc(1.07);
+}
